@@ -1,0 +1,41 @@
+*/ base */
+*{
+    margin: 1;
+    padding: 1; 
+    
+}
+body {
+    font-family: 'Courier New', Courier, monospace;
+    display: grid;
+    font-size: x-large;
+    place-items: center;
+    height: 100vh;
+    background-color: aquamarine;
+
+}
+
+/* password Wrapper */
+.password-wrapper {
+    padding: 15px;
+    box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+}
+.password-wrapper input {
+    width: 100;
+    padding: 12px 0px 12px 5px;
+    border: 1px solid #7e1818;
+    border-radius: 4px;
+    margin: 10px 0px;
+   
+}
+
+.password-wrapper button { 
+    background-color: #4c76af;
+    color: #ffffff;
+    padding: 12px 10px;
+    border: 1px yellowgreen;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+    margin: 10px 0px;
+}
